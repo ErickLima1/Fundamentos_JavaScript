@@ -32,4 +32,4 @@ const contaDeLuz = new Lancamento('Luz', -220);
 const contas = new CicloFinaceiro(6, 2022);
 contas.addLancamento(salario, contaDeLuz);
 console.log(contas.sumario())
- 
+//
