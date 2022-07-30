@@ -7,7 +7,7 @@ dobro = (a) => {
     return 2 * a;
 }
 
-dobro = a => 2 * a; //Return implicito;
+dobro = a => 2 * a; //Return implicíto;
 console.log(dobro(Math.PI));
 
 let ola = function() {
