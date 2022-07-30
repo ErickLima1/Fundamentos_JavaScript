@@ -24,6 +24,6 @@ delete aprovados[1];
 console.log(aprovados[1]);
 console.log(aprovados[2]);
 
-aprovados = ['Sabrina', 'Jose,', 'Erick'];
+aprovados = ['Sabrina', 'Lucas,', 'Erick'];
 aprovados.splice(1, 1);
 console.log(aprovados);
