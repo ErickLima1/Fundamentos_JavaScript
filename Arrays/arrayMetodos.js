@@ -24,7 +24,7 @@ console.log(pilotos);
 const algunsPilotos1 = pilotos.slice(2); //Novo array gerado por esse metodo
 console.log(algunsPilotos1);
 
-const algunsPilotos2 = pilotos.slice(1, 4);
+const algunsPilotos2 = pilotos.slice(1, 5);
 console.log(algunsPilotos2);
 
 
