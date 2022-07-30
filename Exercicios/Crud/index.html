@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Crud</title>
+</head>
+<body style="color: white; background-color: #1d2630;">
+    
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-5 mb-5"><strong>Crud Aplicação</strong></h1>
+        </div> 
+        <div class="main row justify-content-center">
+            <form action="" id="student-form" class="row justify-content-center mb-4" autocomplete="off">
+                <div class="col-10 mb-3 col-md-8">
+                    <label for="primeiroNome">Nome</label>
+                    <input class="form-control" id="primeiroNome" type="text" placeholder="Digite o Primeiro Nome">
+                </div>
+
+                <div class="col-10 mb-3 col-md-8">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input class="form-control" id="sobrenome" type="text" placeholder="Digite o Seu Sobrenome">
+                </div>
+
+                <div class="col-10 mb-3 col-md-8">
+                    <label for="anoLetivo">Ano Letivo</label>
+                    <input class="form-control" id="anoLetivo" type="text" placeholder="Digite o Seu Ano Letivo">
+                </div>
+
+                <div class="col-10 col-md-8">
+                    <input class="btn btn-success add-btn" type="submit" value="Enviar">
+                </div>
+            </form>
+            <div class="col-12 col-md-10 mt-5">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Primeiro Nome</th>
+                            <th>Sobrenome</th>
+                            <th>Ano Letivo</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="student-list">
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div> 
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
