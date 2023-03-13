@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO & class &Array & Function</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Crud</h1>
+    </header>
+    <section>
+        <main>
+            <div class="title">
+                <h2 class="titleCenter">Obras & Capitulos</h2>
+                <span>Lista de obras Cadastrada.</span>
+            </div>
+            <div class="card">
+                <div class="lineInput">
+                    <label>Nome</label>
+                    <input type="text" name="NomeObra" id="NomeObra" placeholder="Nome da obra">
+                </div>
+                <div class="lineInput">
+                    <label>Capitulos</label>
+                    <input type="number" name="capitulos" id="capitulos" placeholder="Capitulos">
+                </div>
+                <button onclick="produto.salvar()" id="btn1">Salvar</button>
+                <button onclick="produto.cancelar()">Cancelar</button>
+            </div>
+            <div class="content">
+                <table border="1">
+                    <thead>
+                        <th class="center">ID</th>
+                        <th>Nome</th>
+                        <th>Capitulos</th>
+                        <th class="center">Ações</th>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </section>
+    <footer>
+        <p>&copy; ExercicioParaAprender</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
